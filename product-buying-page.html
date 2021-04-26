@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/product-buy.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  
+  <title>product-buying-page</title>
+</head>
+
+<body>
+  <!--1st navbar section-->
+  <section>
+
+    <ul class="nav justify-content-between">
+      <li class="nav-item">
+        <a class="nav-link" id="EXCLUSIVE-offer" aria-current="page" href="#">EXCLUSIVE MARVEL T-SHIRTS | Limited time
+          only ></a>
+      </li>
+      <li class="nav-item justify-content-end">
+        <a class="nav-link order" href="#"><i class="bi bi-truck"></i>Order Bulk</a>
+      </li>
+      <li class="nav-item justify-content-end">
+        <a class="nav-link selling" href="#"><i class="bi bi-cash"></i>Start Selling</a>
+      </li>
+      <li class="nav-item justify-content-end">
+        <a class="nav-link help" href="#"><i class="bi bi-question-circle-fill"></i>Help</a>
+      </li>
+
+      <div class="dropdown">
+        <a class="btn  dropdown-toggle login" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="bi bi-box-arrow-in-right"></i>login
+        </a>
+
+        <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item border-bottom" href="#">Login</a></li>
+          <li><a class="dropdown-item border-bottom" href="#"> Register</a></li>
+          <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+    </ul>
+  </section>
+
+  <!--2nd navbar-->
+  <section>
+    <nav class="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="image/homepage/logo.PNG" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link text-align-nav create" href="#">Create <br> <span class="span-color-nav">Custom
+                  Products</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-align-nav shop" href="#">Shop <br> <span class="span-color-nav">marketplace
+                  Design</span></a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search by name" aria-label="Search">
+            <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-bag-check-fill"></i>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 id="header">Jolbe Amar Amni Cholbe</h3>
+
+          <div class="like-box">
+            <i class="bi bi-bookmark like-product"></i>
+            <span class="like-count">4</span>
+          </div>
+
+          <div class="single-item">
+            <img src="product-img/front.png" alt="">
+            <img src="product-img/back.png" alt="">
+          </div>
+
+
+
+
+        </div>
+
+        <div class="col-lg-6">
+          <div class="background-div">
+            <div class="choose-color">
+              <h6>Choose Color: <a href="#" class="myButton float-btn"><i class="bi bi-facebook"></i>Share</a></h6>
+            </div>
+
+            <div class="checkbox-margin">
+              <input class="form-check-input white" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input blue" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input semi-red" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input semi-blue" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input black" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input ash" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input light-green" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input black-ash" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input red" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input green" type="checkbox" value="" id="flexCheckDefault">
+              <input class="form-check-input purple" type="checkbox" value="" id="flexCheckDefault">
+            </div>
+
+            <div class="size-margin">
+              <h6>Choose Size and Blend:</h6>
+              <div size-background>
+                <p>Premium Quality</p>
+                <span class="size-box">XS</span> <span class="size-box">S</span> <span class="size-box">M</span> <span
+                  class="size-box">L</span> <span class="size-box">XL</span> <span class="size-box">XXL</span> <span
+                  class="size-box">3XL</span>
+
+              </div>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-success" type="button"><i class="bi bi-search"></i> Check size cart</button>
+
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button"><i class="bi bi-cart-plus-fill"></i> Add to cart</button>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <hr>
+    </div>
+  </section>
+
+  <!--Last part-->
+  <section>
+    <div class="container">
+      <div class="row back-design">
+        <div class="col-lg-6 col-md-6 col-sm-12 padding-left">
+          <h6 class="designed">Designed by</h6>
+          <div>
+            <img class="logo-dsign" src="product-img/logo-product.png" alt="">
+          </div>
+          <a class="T-sgirt-bd" href="#">T Shirts Bangladesh </a>
+
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 padding-right">
+          <h6 class="jolbe-amar">Jolbe Amar Amni Cholbe</h6>
+          <p>Loker Jolbe Amar Amni Cholbe</p>
+          <h6 class="material">Material:</h6>
+          <p>Eco friendly printing color.</p>
+          <p><span class="bold">Premium: </span> 175 GSM. Compact combed cotton.26 Thread Count. Wash resistant fabric
+            color.</p>
+          <p><span class="bold">Standard:</span>~160 GSM. Super Carded cotton. 26 Thread Count. Durable fabric color.
+          </p>
+          <p><span class="bold">Budget:</span>~150-160 GSM. Super Carded cotton. 26-28 Thread Count. Durable fabric
+            color.</p>
+          <p><span class="bold">Type: </span>Men</p>
+          <p><span class="bold">Category:</span><a href="#">Humor</a></p>
+          <p><span class="bold">Tags:</span> <span class="tags"><a href="">#quote</a></span> <span class="tags"><a
+                href="#">#meme</a></span> <span class="tags"><a href="#">#desi</a></span> <span class="tags"><a
+                href="">#bangla</a></span> <span class="tags"><a href="#">#funny</a></span></p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!--Footer part 1-->
+
+  <div class="footer-background">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 footer">
+          <i class="bi bi-lock-fill footer-icon text-center"></i>
+          <h5 class="text-aling-footer">All secure payment methods</h5>
+          <img class="footer-image" src="image/F1.png" alt="">
+        </div>
+
+        <div class="col-lg-4 footer">
+          <i class="bi bi-emoji-smile footer-icon text-center"></i>
+          <h5 class="text-aling-footer">Satisfaction guaranteed</h5>
+          <p class="text-aling-footer">Made with premium quality materials.</p>
+          <p class="text-aling-footer footer-text">Cozy yet lasts the test of time</p>
+
+        </div>
+
+        <div class="col-lg-4 footer">
+          <i class="bi bi-truck footer-icon text-center"></i>
+          <h5 class="text-aling-footer">Worldwide delivery</h5>
+          <img class="footer-image " src="image/F2.png" alt="">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Footer part 2-->
+  <div class="footer-two-background">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="fooeter-two-partone"><i class="bi bi-envelope"></i>GET SPECIAL DISCOUNTS IN YOUR INBOX</p>
+          <div class="form-inline pull-left newsletter-form"
+            style="text-align: left; width: 100%; margin-left: 0px ;margin-bottom: 40px;">
+            <input
+              style="color: #fff;background: transparent;border: 0px;border-bottom: 1px solid white;border-radius: 0px;"
+              class="form-control mail-subscribe email-submit-input" type="email" name="email"
+              placeholder="Enter email to get offers, discounts and more." required="">
+            <button class="btn btn-sm btn-warning mail-subscribe-btn" type="submit">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <p class="fooeter-two-partone"><i class="bi bi-telephone-fill"></i>FOR ANY HELP YOU MAY CALL US AT</p>
+          <p class="footer-two-para-color">+8809609224480</p>
+          <p class="footer-two-para-color">Open 24 Hours a Day, 7 Days a week</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--list part of footer-->
+  <div class="list-background">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 list-design">
+          <h6 style="color: #f7941e;">FABRILIFE</h6>
+
+          <li class="sub-item-list"><a class="no-style-link" href="">ABOUT US</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">TERMS & CONDITIONS</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">PRIVACY POLICY</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">CANCELLATION & RETURN POLICY</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">FAQS</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href=""><i class="bi bi-facebook"></i> <i
+                class="bi bi-twitter"></i> <i class="bi bi-youtube"></i> <i class="bi bi-instagram"></i></a></li>
+
+
+        </div>
+
+        <div class="col-lg-3 list-design">
+          <h6 style="color: #f7941e;">TOP CATEGORIES</h6>
+          <li class="sub-item-list"><a class="no-style-link" href="">BANGLADESH T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">ACADEMIC T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">ARTISTIC T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">CARTOONING T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">HUMOR T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">INSTITUTION T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">MOVIE T-SHIRT</a></li>
+
+        </div>
+
+        <div class="col-lg-3 list-design">
+          <li class="sub-item-list"><a class="no-style-link" href="">TV SERIES T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">MUSIC T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">OCCASION T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">OCCASION T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">PASSION T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">PROFESSION T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">QUOTE T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">RELATIONSHIP T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">SPORTS T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">HOBBY T-SHIRT</a></li>
+        </div>
+
+        <div class="col-lg-3 list-design">
+          <h6 style="color: #f7941e;">HOT !!</h6>
+          <li class="sub-item-list"><a class="no-style-link" href="">GAME OF THRONES T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">AVENGERS ENDGAME T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">ENGINEERING T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">MARVEL T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">BREAKING BAD T-SHIRT</a></li>
+          <li class="sub-item-list"><a class="no-style-link" href="">BAND T-SHIRT</a></li>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p class="lastfooter-text">FABRILIFE prints a huge variety of custom clothing like T-shirts, hoodies and more.
+          Your order is handled daily with a lot of ❤️️ from BANGLADESH and delivered worldwide!</p>
+        <p class="copyright">Copyright © 2018 Fabrilife Limited. All Right Reserved</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+
+</html>
